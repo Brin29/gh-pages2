@@ -19,11 +19,11 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="catalogo" element={<Catalogo />} />
-          <Route path="usuario" element={<PerfilUsuario />} />
-          <Route path="/product/:id" element={<PaymentPage />} />
-          <Route path="/carrito" element={<Carrito />} />
-          <Route path="/favorito" element={<Favoritos products={products} />} /> 
+          <Route path="gh-pages2/catalogo" element={<Catalogo />} />
+          <Route path="gh-pages2/usuario" element={<PerfilUsuario />} />
+          <Route path="gh-pages2/product/:id" element={<PaymentPage />} />
+          <Route path="gh-pages2/carrito" element={<Carrito />} />
+          <Route path="gh-pages2/favorito" element={<Favoritos products={products} />} /> 
         </Routes>
         <Footer />
       </Router>
